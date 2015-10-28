@@ -1,0 +1,121 @@
+<div class="ui-listview" id="topselection">
+	<h1 class="ui-li-heading">Progress</h1>
+</div>
+
+<div class="AjaxOutputForWODs" id="AjaxOutput">
+	
+	<div align="center" class="dashboard">
+		<div align="center" class="dashboardwrapper">
+			<div class="dashboardworkouts">
+				<div class="dashboardrow">
+					<div class="dashboardtitle dashboardheading">Workouts</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle">Fran</div>
+					<div class="dashboardvalue">00:00</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle">Helen</div>
+					<div class="dashboardvalue">00:00</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle">Grace</div>
+					<div class="dashboardvalue">00:00</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle">Filthy Fifty</div>
+					<div class="dashboardvalue">00:00</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle">Fight Gone Bad</div>
+					<div class="dashboardvalue">00:00</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle">Sprint 400m</div>
+					<div class="dashboardvalue">00:00</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle">Run 5km</div>
+					<div class="dashboardvalue">00:00</div>
+				</div><!-- dashboardrow -->
+
+			</div><!-- dashboardworkouts -->
+			<div class="dashboardmaxes">
+				<div class="dashboardrow">
+					<div class="dashboardtitle dashboardheading">Maxes</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle dashboardtitlemax">Clean &amp; Jerk</div>
+					<div class="dashboardvalue">0</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle dashboardtitlemax">Snatch</div>
+					<div class="dashboardvalue">0</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle dashboardtitlemax">Deadlift</div>
+					<div class="dashboardvalue">0</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle dashboardtitlemax">Squat</div>
+					<div class="dashboardvalue">0</div>
+				</div><!-- dashboardrow -->
+
+				<div class="dashboardrow">
+					<div class="dashboardtitle dashboardtitlemax">Pull Up</div>
+					<div class="dashboardvalue">0</div>
+				</div><!-- dashboardrow -->
+
+			</div><!-- dashboardmaxes -->
+		</div><!-- dashboardwrapper -->
+	</div><!-- dashboard -->
+	<div class="clear"></div>
+	<div class="listingblock">
+		<ul data-dividertheme="d" data-theme="c" data-inset="true" data-role="listview" class="listview ui-listview ui-listview-inset ui-corner-all ui-shadow">
+			<li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-first-child ui-btn-up-c">
+				<div class="ui-btn-inner ui-li">
+					<div class="ui-btn-text">
+						<a onclick="fetchPage('workouts')" href="#" class="ui-link-inherit">Workouts</a>
+					</div>
+					<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+				</div>
+			</li>
+			<li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li-has-arrow ui-li">
+				<div class="ui-btn-inner ui-li">
+					<div class="ui-btn-text">
+						<a onclick="fetchPage('maxes')" href="#" class="ui-link-inherit">Maxes</a>
+					</div>
+					<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+				</div>
+			</li>
+			<li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li-has-arrow ui-li">
+				<div class="ui-btn-inner ui-li">
+					<div class="ui-btn-text">
+						<a onclick="fetchPage('baselines')" href="#" class="ui-link-inherit">Baselines</a>
+					</div>
+					<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+				</div>
+			</li>
+			<!--li><a href="#" onclick="fetchPage('challenges')">Challenge</a></li-->
+			<li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li-has-arrow ui-li ui-last-child">
+				<div class="ui-btn-inner ui-li">
+					<div class="ui-btn-text">
+						<a onclick="fetchPage('activities')" href="#" class="ui-link-inherit">Activities</a>
+					</div>
+					<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

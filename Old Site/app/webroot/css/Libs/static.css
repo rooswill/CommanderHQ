@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+*/
+
+body {
+	width: 320px;
+	margin: 0px;
+	color: #4d4d4d;
+	font-family: 'PT Sans', sans-serif;
+}
+.clear {
+	clear: both;
+	height: 0px;
+}
+img { display:block }
+h1 {
+	font-weight: normal;
+	font-size: 24px;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	padding: 0px 10px 0px 10px;
+}
+h2 {
+	font-weight: normal;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+}
+h3 {
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+p {
+	font-size: 14px;
+	line-height: 22px;
+	font-family: 'PT Sans', sans-serif;
+}
+.red_link_box {
+	color: #FFFFFF;
+	background-color: #C82114;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 12px 10px 12px;
+}
+.red_link_box a {
+	display: block;
+	height: 100%;
+	font-size: 28px;
+	color: #FFF;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+}
+.green_link_box p {
+	font-size: 18px;
+	line-height: 32px;
+	font-family: 'PT Sans', sans-serif;
+	border-top: 1px solid #a3d564;
+	padding: 10px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+}
+.green_link_box {
+	color: #FFFFFF;
+	background-image: url(../images/green.png);
+	background-size:auto;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 12px 10px 12px;
+}
+.green_link_box a {
+	display: block;
+	height: 100%;
+	font-size: 28px;
+	color: #FFF;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+}
+.red_link_box p {
+	font-size: 12px;
+	line-height: 20px;
+	font-family: 'PT Sans', sans-serif;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-transform: uppercase;
+}
+.intro {
+	background-color: #4D4D4D;
+	padding: 10px 12px 10px 12px;
+}
+.intro p {
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	margin: 0px 0px 0px 0px;
+	line-height: 20px;
+	font-size: 16px;
+}
+.paragraph {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 12px 10px 12px;
+}
+.paragraph p {
+	font-family: 'Fjalla One', sans-serif;
+	color: #4D4D4D;
+	line-height: 26px;
+	font-size: 16px;
+}
+.divide {
+	border-bottom: 1px solid #CCCCCC;
+	margin: 10px 10px 30px 10px;
+	height: 0px;
+}
+.list {
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	padding: 0px 10px 30px 10px;
+}
+.list_item {
+	font-size: 16px;
+	line-height: 26px;
+	padding: 0px 0px 0px 20px;
+	background-image: url(../images/li_mobile.png);
+	background-repeat: no-repeat;
+	height: auto;
+}
+#social {
+	padding: 20px 10px 20px 10px;
+}
+#social img {
+	float: left;
+	margin-right: 10px;
+}
+/*#footer {
+	border-top: 10px solid #CCCCCC;
+	font-size: 10px;
+	margin: 0px 10px 20px 10px;
+	padding: 5px 10px 0px 10px;
+}*/
+#icons {
+	padding: 14px 10px 30px 10px;
+}
+.icon {
+	width: 80px;
+	margin: 0px 30px 10px 0px;
+	float: left;
+}
+.icon img {
+	border-bottom: 6px solid #C83226;
+	width: 100%;
+}
+.icon p {
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+<br/><div id="topselection"><h1>Profile</h1></div>
+
+<form name="profileform" id="profileform" method="post" action="index.php">
+	<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+		<input type="hidden" value="profile" name="module">
+		<input type="hidden" value="" name="UserId">
+		<label for="firstname" class="ui-input-text">First Name</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="text" value="{{name}}" placeholder="First Name" name="FirstName" id="firstname" class="textinput ui-input-text ui-body-c">
+		</div>
+		<label for="lastname" class="ui-input-text">Last Name</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="text" value="{{surname}}" placeholder="Last Name" name="LastName" id="lastname" class="textinput ui-input-text ui-body-c">
+		</div>
+		<label for="username" class="ui-input-text">User Name</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="text" value="{{username}}" placeholder="User Name" name="UserName" id="username" class="textinput ui-input-text ui-body-c">
+		</div>
+		<label for="password" class="ui-input-text">Password</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="password" autocomplete="off" value="" placeholder="Password" name="PassWord" id="password" class="textinput ui-input-text ui-body-c">
+		</div>
+		<label for="confirmpassword" class="ui-input-text">Confirm Password</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="password" autocomplete="off" value="" placeholder="Confirm Password" name="ConfirmPassWord" id="confirmpassword" class="textinput ui-input-text ui-body-c">
+		</div>
+		<label for="cell" class="ui-input-text">Cell (+2778000000)</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="tel" placeholder="Cell (+2778000000)" value="{{cellphone}}" name="Cell" id="cell" class="textinput ui-input-text ui-body-c">
+		</div>
+		<label for="email" class="ui-input-text">Email</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="email" value="{{email}}" placeholder="Email" name="Email" id="email" class="textinput ui-input-text ui-body-c">
+		</div>
+		<label for="DOB" class="ui-input-text">Date of Birth</label>
+		<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+			<input type="date" value="{{dob}}" placeholder="Date of Birth" id="DOB" name="DOB" class="textinput ui-input-text ui-body-c">
+		</div>
+		<div class="registeredgym">
+			<div class="registeredgymlabel">Registered Gym</div>
+			<form class="ui-listview-filter ui-bar-d ui-listview-filter-inset" role="search">
+				<div class="ui-input-search ui-shadow-inset ui-btn-corner-all ui-btn-shadow ui-icon-searchfield ui-body-d">
+					<input placeholder="Find your Gym..." data-type="search" class="ui-input-text ui-body-d">
+					<a title="clear text" class="ui-input-clear ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-fullsize ui-btn-icon-notext ui-input-clear-hidden" href="#" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-icon="delete" data-iconpos="notext" data-theme="d" data-mini="false">
+						<span class="ui-btn-inner">
+							<span class="ui-btn-text">clear text</span>
+							<span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span>
+						</span>
+					</a>
+				</div>
+			</form>
+			<ul data-filter-theme="d" data-filter-placeholder="Find your Gym..." data-filter="true" data-inset="true" data-role="listview" id="autocomplete" class="ui-listview ui-listview-inset ui-corner-all ui-shadow"></ul>
+		</div><!-- registeredgym -->
+		<div class="systemofmeasure">
+			<input type="hidden" value="" id="AffiliateId" name="AffiliateId">
+			<div class="systemofmeasurelabel">System Of Measure</div>
+			<fieldset data-type="horizontal" data-role="controlgroup" class="controlgroup ui-corner-all ui-controlgroup ui-controlgroup-horizontal" aria-disabled="false" data-disabled="false" data-shadow="false" data-corners="true" data-exclude-invisible="true" data-mini="false" data-init-selector=":jqmData(role='controlgroup')">
+				
+				<div class="ui-controlgroup-controls">
+
+					<div class="ui-radio">
+						<input type="radio" checked="checked" onclick="getSystem('Metric');" value="Metric" id="radio-choice-1" name="SystemOfMeasure" class="radioinput">
+						<label for="radio-choice-1" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="radio-on" data-theme="c" data-mini="false" class="ui-radio-on ui-btn-active ui-btn ui-btn-up-c ui-btn-corner-all ui-fullsize ui-btn-icon-left ui-first-child">
+							<span class="ui-btn-inner">
+								<span class="ui-btn-text">Metric</span>
+								<span class="ui-icon ui-icon-radio-on ui-icon-shadow">&nbsp;</span>
+							</span>
+						</label>
+					</div>
+
+					<div class="ui-radio">
+						<input type="radio" onclick="getSystem('Imperial');" value="Imperial" id="radio-choice-2" name="SystemOfMeasure" class="radioinput">
+						<label for="radio-choice-2" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="radio-off" data-theme="c" data-mini="false" class="ui-radio-off ui-btn ui-btn-up-c ui-btn-corner-all ui-fullsize ui-btn-icon-left ui-last-child">
+							<span class="ui-btn-inner">
+								<span class="ui-btn-text">Imperial</span>
+								<span class="ui-icon ui-icon-radio-off ui-icon-shadow">&nbsp;</span>
+							</span>
+						</label>
+					</div>
+
+				</div>
+			</fieldset>
+		</div><!-- systemofmeasure -->
+		<div class="height">
+			<div id="heightlabel">Height(cm)</div>
+			<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+				<input type="number" value="{{height}}" name="Height" class="textinput ui-input-text ui-body-c" id="height">
+			</div>
+		</div><!-- height -->
+		<div class="weight">
+			<div id="weightlabel">Weight(kg)</div>
+			<div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
+				<input type="number" value="{{weight}}" name="Weight" class="textinput ui-input-text ui-body-c" id="weight">
+			</div>
+		</div><!-- weight -->
+		<div class="gender">
+			<div class="genderlabel">Gender</div>
+			<fieldset data-type="horizontal" data-role="controlgroup" class="controlgroup ui-corner-all ui-controlgroup ui-controlgroup-horizontal" aria-disabled="false" data-disabled="false" data-shadow="false" data-corners="true" data-exclude-invisible="true" data-mini="false" data-init-selector=":jqmData(role='controlgroup')">
+				<div class="ui-controlgroup-controls">
+					<div class="ui-radio">
+						<label for="male" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="radio-on" data-theme="c" data-mini="false" class="ui-radio-on ui-btn-active ui-btn ui-btn-up-c ui-btn-corner-all ui-fullsize ui-btn-icon-left ui-first-child">
+							<span class="ui-btn-inner">
+								<span class="ui-btn-text">Male</span>
+								<span class="ui-icon ui-icon-radio-on ui-icon-shadow">&nbsp;</span>
+							</span>
+						</label>
+						<input type="radio" checked="checked" value="M" name="Gender" id="male" class="radioinput">
+					</div>
+
+					<div class="ui-radio">
+						<label for="female" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="radio-off" data-theme="c" data-mini="false" class="ui-radio-off ui-btn ui-btn-up-c ui-btn-corner-all ui-fullsize ui-btn-icon-left ui-last-child">
+							<span class="ui-btn-inner">
+								<span class="ui-btn-text">Female</span>
+								<span class="ui-icon ui-icon-radio-off ui-icon-shadow">&nbsp;</span>
+							</span>
+						</label>
+						<input type="radio" value="F" name="Gender" id="female" class="radioinput">
+					</div>
+
+				</div>
+			</fieldset>
+		</div><!-- gender -->
+		<div class="anonymous">
+			<div class="anonymouslabel">Anonymous</div>
+			<a data-iconpos="notext" data-theme="e" data-icon="info" data-transition="pop" data-inline="true" class="ui-icon-alt ui-btn ui-btn-up-e ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-icon-notext" data-role="button" data-position-to="window" data-rel="popup" href="#popupInfo" id="popuphq" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" aria-haspopup="true" aria-owns="#popupInfo" title="">
+				<span class="ui-btn-inner">
+					<span class="ui-btn-text"></span>
+					<span class="ui-icon ui-icon-info ui-icon-shadow">&nbsp;</span>
+				</span>
+			</a>
+			<div style="display: none;"><!-- placeholder for popupInfo -->
+			</div><!-- anonymous -->
+			<div class="savebutton">
+				<div data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="b" data-disabled="false" class="ui-btn ui-btn-up-b ui-shadow ui-btn-corner-all" aria-disabled="false">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Save</span>
+					</span>
+					<input type="button" data-theme="b" value="Save" onclick="profilesubmit();" class="buttongroup ui-btn-hidden" data-disabled="false">
+				</div>
+			</div><!-- savebutton -->
+		</div><!-- fieldcontain -->
+		<div class="clear"></div>
+	</div>
+</form>

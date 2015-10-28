@@ -1,0 +1,675 @@
+body {
+	margin: 0px;
+	color: #4d4d4d;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 130%;
+	background-color: #e5e5e5;
+}
+
+.largeBG {
+  background-image: url(/img/admin/back.png);
+  background-repeat: repeat-x;
+}
+
+.smallBG {
+  background-image: url(/img/admin/backSml.png);
+  background-repeat: repeat-x;
+}
+
+.loadnewwod-header-button, .loadnewwod-header-button-advanced {
+  border: 1px solid #E5E5E5;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  margin: 10px 5px;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+}
+
+#banner {
+	height: 159px;
+	background-image: url(/img/admin/banner_image.jpg);
+	background-repeat: no-repeat;
+	padding-top: 179px;
+}
+
+#banner_statement {
+	height: 132px;
+	background-image: url(/img/admin/banner_trans.png);
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	font-size: 26px;
+	line-height: 11px;
+	color: #ffffff;
+	padding: 27px 470px 0 28px;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #4d4d4d;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 34px;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  margin:35px 0 15px 0;
+  padding-left:5px;
+  color:#fff;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+img {
+	display:block;
+}
+
+.sub_statement {
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0px auto 0px auto;
+}
+
+#footer {
+  margin: 40px 0px 40px 0px;
+}
+
+#footer {
+  border-top: 10px solid #CCCCCC;
+  font-size: 10px;
+  margin: 90px 0px 40px 0px;
+  padding: 5px 0px 0px 10px;
+}
+
+.form_right {
+  padding: 0px 10px 0px 68px;
+  float: right;
+  border-left: 1px solid #cccccc;
+}
+
+.form_left {
+  padding: 0px 0px 0px 10px;
+  float: left;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+.form input {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  color: #555;
+  background-color: #f1f1f1;
+  border: 1px solid #b2b2b2;
+  padding: 10px 0px 10px 10px;
+  height: 20px;
+}
+
+#submit {
+  background-color: #C82114;
+  color: #FFFFFF;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  padding: 7px;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.clear {
+	clear:both;
+}
+
+#flashMessage {
+	background-color: #C82114;
+	color: #FFFFFF;
+	font-family: 'Fjalla One',sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	padding: 7px 13px 9px;
+	text-transform: uppercase;
+	border: 0;
+	margin-top:40px;
+}
+
+ul#admin-menu {
+  background-image: url("/img/admin/banner_trans.png");
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 26px;
+  height: 50px;
+  margin: 0;
+  opacity: 0.7;
+  width: 960px;
+  padding-left: 0px;
+  text-transform: uppercase;
+}
+
+ul#admin-menu li {
+  color: #fff;
+  float: left;
+  height: 36px;
+  list-style-type: none;
+  margin: 0 4px;
+  padding: 16px 14px 0;
+  text-align: center;
+}
+
+#admin-menu a:hover {
+	background:#000;
+}
+
+.loadnewreport-body-top-col, loadnewreportwod-body-top-col {
+  float: left;
+  margin: 33px 0 0 33px;
+  text-align: center;
+  width: 195px;
+}
+
+.loadnewreport-body-title {
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 195px;
+}
+
+.loadnewreport-body-counter {
+  background-color: #ccc;
+  border-radius: 10px;
+  line-height: 67px;
+  font-size: 67px;
+  height: 195px;
+  width: 195px;
+}
+
+.loadnewreport-body-counter-value {
+  line-height: 195px;
+  font-weight: bold;
+}
+
+.loadnewreport-body-top {
+  display: block;
+  width: 100%;
+}
+
+.loadnewreport-body-button {
+  border-radius: 5px;
+  height: 45px;
+  line-height: 45px;
+  width: 100%;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  background-color: #4D4D4D;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.reportlistblock {
+  background: #F2F2F2;
+  display: block;
+  width: 94%;
+  height: auto;
+  margin: 15px 0 10px 28px;
+  padding: 6px 0 27px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.report-tbl-item-header {
+  color: #4d4d4d;
+  background-color: #ccc;
+  float: left;
+  margin: 1px 1px 0 0;
+  padding: 5px 3px 5px 10px;
+  width: 120px;
+  max-width: 120px;
+  display: inline;
+  text-align: center;
+}
+
+.child {
+  float: left;
+  background-color: #CCCCCC;
+  margin: 1px 1px 0 0;
+  height: 27px;
+}
+
+
+.report-tbl-item-member, .report-tbl-item-member-wods {
+  float: left;
+  width: 178px;
+  max-width: 178px;
+  display: inline;
+}
+
+.item-center {
+  text-align: center !important;
+  max-width: 107px;
+}
+
+.report-tbl-item {
+  color: #3B3B4D;
+  float: left;
+  width: 120px;
+  max-width: 120px;
+  display: inline;
+  text-transform: uppercase;
+}
+
+.item-link {
+  width: 40px;
+  min-width: 40px;
+  padding: 4px 0 !important;
+}
+
+.report-tbl-item-member {
+  text-align: left;
+  padding-left: 10px !important;
+}
+
+.child {
+  font-size: 16px;
+  font-weight: normal;
+  height: 27px;
+  padding: 8px 0 0 10px;
+  text-transform: none;
+}
+
+.table-header {
+  background-color: #BABABA;
+  color: #4D4D4D;
+  font-weight: bold;
+  text-align: left;
+}
+
+.report-expand, .report-collapse {
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  background-color: #C83006;
+  background-image: url(/img/admin/icons-18-white.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.report-expand2 {
+  background-position: -109px 0px;
+}
+
+#pagelinks {
+  color: #C82114;
+  float: right;
+  padding: 8px 30px;
+  text-transform: uppercase;
+}
+
+.report-tbl-item-userinfo {
+  background: none repeat scroll 0 0 #F2F2F2;
+  display: inline;
+  float: left;
+  margin: 0 25px;
+  max-width: 237px;
+  padding: 24px 0 5px 19px;
+  text-align: left;
+  width: 245px;
+}
+
+.item-center {
+  text-align: center !important;
+  max-width: 107px;
+}
+
+.report-tbl-item {
+  color: #3B3B4D;
+  float: left;
+  width: 111px;
+  max-width: 120px;
+  display: inline;
+  text-transform: uppercase;
+}
+
+.report-tbl-item {
+  color: #3B3B4D;
+  float: left;
+  width: 111px;
+  max-width: 120px;
+  display: inline;
+  text-transform: uppercase;
+}
+
+.orange-text {
+  color: #c83006;
+}
+
+.report-user-title {
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.report-tbl-item-workouts, .report-tbl-item-maxes {
+  float: left;
+  width: 250px;
+  max-width: 250px;
+  text-align: left;
+  display: inline;
+}
+
+.report-user-total {
+  float: left;
+  width: 505px;
+  max-width: 505px;
+  border: 2px solid;
+  border-color: black;
+  min-height: 220px;
+  color: white;
+  border: 1px solid #999 /*{e-bhover-border}*/;
+  background: #656565 /*{e-bhover-background-color}*/;
+  background: -webkit-gradient(linear, left top, left bottom, from( #777 /*{e-bhover-background-start}*/), to( #656565 /*{e-bhover-background-end}*/));
+  background: -webkit-linear-gradient( #777 /*{e-bhover-background-start}*/, #656565 /*{e-bhover-background-end}*/);
+  background: -moz-linear-gradient( #777 /*{e-bhover-background-start}*/, #656565 /*{e-bhover-background-end}*/);
+  background: -ms-linear-gradient( #777 /*{e-bhover-background-start}*/, #656565 /*{e-bhover-background-end}*/);
+  background: -o-linear-gradient( #777 /*{e-bhover-background-start}*/, #656565 /*{e-bhover-background-end}*/);
+  background: linear-gradient( #777 /*{e-bhover-background-start}*/, #656565 /*{e-bhover-background-end}*/);
+  padding: 14px 0 8px 25px;
+}
+
+.report-tbl-row {
+  float: left;
+  width: 100%;
+  height: 28px;
+  padding-bottom: 8px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.user-tbl-title-left {
+  float: left;
+  width: 150px;
+  max-width: 150px;
+  text-align: left;
+  display: inline;
+  margin-left: 8px;
+}
+
+.report-tbl-user-dash-item {
+  float: left;
+  width: 40px;
+  max-width: 40px;
+  display: inline-block;
+  text-align: center;
+  color: #3B3B4D;
+  background: #fff;
+  padding: 3px 5px 2px 7px;
+  color: #222;
+  border-radius: .3em;
+}
+
+.info-workout-type, .info-workout-coach, .info-workout-start-date {
+  float:left;
+  margin-right:20px;
+  width: 185px;
+  padding-top:10px;
+}
+
+.info-workout-type select, .info-workout-coach input, .info-workout-start-date input{
+  width:94%;
+  padding:3%;
+  border:1px solid #999;
+}
+
+.info-workout-description {
+  padding-top:20px;
+}
+
+.info-workout-description textarea {
+  width:96%;
+  height:70px;
+  padding:2%;
+}
+
+.RoutineList, .workout-admin-panel {
+  padding: 12px 20px 20px;
+  background-color: #F2F2F2;
+  margin: 15px 0px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+.smlBtnRed {
+  background-color: #C82114;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 2px 0;
+  padding: 7px;
+  text-transform: uppercase;
+}
+
+.activitytable, .activitytableheader {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  margin: 1px;
+  text-align: left;
+  width: 100%;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.activitytableheader tr {
+  background-color: #ccc;
+}
+
+.activitytable th, .activitytableheader th {
+  border-right: 1px solid #FFFFFF;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 5px;
+}
+
+#inputs .buttongroup, .activitytable td input, input.EditAttribute {
+  background-color: #C82114;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 3px 0 3px 3px;
+  padding: 4px;
+  text-transform: uppercase;
+  height: 24px;
+  width: 68px;
+}
+
+.RoundLabel, .RoutineLabel, .AdvancedRoutineLabel {
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 19px;
+  position: relative;
+  width: 300px;
+  clear: both;
+  margin-top: 10px;
+}
+
+.RoutineLabel input, .AdvancedRoutineLabel input {
+    left: 135px;
+    position: absolute;
+    top: -9px;
+}
+
+.workout-admin-input-fields {
+  background:#bbb;
+  width:98%;
+  padding:8px;
+  margin:10px 0 0 0;
+}
+
+.workout-btn-activity, .workout-btn-benchmark {
+  float:left;
+  margin-right:10px;
+}
+
+.workout-btn-copy-round, .workout-btn-add-round, .workout-btn-copy-activity {
+  float:right;
+  margin-left:10px;
+}
+
+.workout-buttons {
+  padding-top:10px;
+}
+
+.workout-btn-benchmark select {
+  background-color: #8CC63F;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 5px 4px 3px;
+  text-transform: uppercase;
+}
+
+.workout-btn-green {
+  background-color: #8CC63F;
+  color: #FFFFFF;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 7px;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.select-workout-activity select {
+  background-color: #777777;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 3px 5px 4px 0;
+  padding: 2px 4px 2px 2px;
+  text-transform: none;
+}
+
+.main-workout-btn-amrap {
+  display: inline;
+  background: #8CC63F;
+  border: 0;
+  padding: 7px;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Fjalla One',sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.main-workout-btn-amrap label{
+  margin:0;
+}
+
+.main-workout-btn-add-routine, .main-workout-btn-copy-routine, .main-workout-btn-amrap {
+  float:left;
+  margin-right:10px;
+}
+
+.main-workout-btn-save-workout {
+  float:right;
+}
+
+.admin-exercise-list {
+  background: #f2f2f2 none repeat scroll 0 0;
+  display: block;
+  font-weight: bold;
+  height: auto;
+  margin: 3% 0 0 0;
+  padding: 3%;
+  text-transform: uppercase;
+  width: 94%;
+}
+
+.exercise-box {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 8px 0 0 10px;
+  text-transform: none;
+}
+
+.exercise-name-box, .exercise-action-box {
+  float:left;
+  line-height: 27px;
+  width:43%;
+  margin:0 2.5%;
+  background-color: #cccccc;
+  padding:1%;
+  margin-bottom:5px;
+}
+
+.attribute-list {
+  padding:8px;
+  background: #f2f2f2;
+  margin-top:5px;
+}
+
+.attribute-list-item {
+  float:left;
+}
+
+.attribute-list-action {
+  float:right;
+}
+
+.attribute-item-block {
+  border-bottom:1px solid #e3e3e3;
+  padding-bottom:5px;
+  margin-bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

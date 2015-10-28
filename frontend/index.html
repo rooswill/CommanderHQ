@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html ng-app="App">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width" />
+        <title>Commader HQ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link href="/frontend/css/styles.css" rel="stylesheet" type="text/css">
+        <link href="/frontend/css/scrollmenu.css" rel="stylesheet" type="text/css">
+
+        <style type="text/less">
+            .transition (@value1,@value2:X,...) { @value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`; -webkit-transition: @value; -moz-transition: @value; -ms-transition: @value; -o-transition: @value; transition: @value; }
+            .transform (@value1,@value2:X,...) { @value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`; transform:@value; -ms-transform:@value; -webkit-transform:@value; -o-transform:@value; -moz-transform:@value; }
+            .border-box { box-sizing:border-box; -moz-box-sizing:border-box; }
+            
+            body { font-family:Arial; font-size:14px; }
+            body>span, body>h1 { float:left; width:100%; margin:0; padding:0; margin-bottom:10px; }
+            
+            span { color:#888888; }
+            button { width:auto; padding:7px 22px; }
+            
+            menu {
+                margin:0px; 
+                display:block;
+                @menu-width:100%;
+                >div 
+                { 
+                    position:absolute; 
+                    z-index:2; 
+                    top:0;  
+                    width:@menu-width; 
+                    height:100%; 
+                    .border-box; 
+                    .transition(-webkit-transform ease 250ms); 
+                    .transition(transform ease 250ms);
+                    &.left 
+                    { 
+                        background:#273D7A; left:@menu-width*-1; 
+                    }
+                    &.show.left 
+                    { 
+                        .transform(translate3d(@menu-width, 0, 0)); 
+                    }
+                    >menu-item { 
+                        display:block;
+                        >div 
+                        { 
+                            float:left; 
+                            margin:0; 
+                            cursor:pointer; 
+                            .border-box;
+                            color:#B0B0B0;
+                            line-height:80px;
+                            background-color: #3d3d3d;
+                            border-bottom: 1px solid #2b2b2b;
+                            border-top: 1px solid #494949;
+                            color: #999;
+                            padding-left: 3%;
+                            width: 100%;
+                            &:hover { 
+                                color:#F0F0F0; 
+                            }
+                            >span { 
+                                float:left; 
+                                color:inherit; 
+                                display:block;
+                            }
+                            >img { 
+                                float:left;
+                            }
+                        }
+                    }
+                    >menu-heading {
+
+                        >div {
+                            float:left; 
+                            margin:0; 
+                            cursor:pointer; 
+                            .border-box;
+                            background: url("/images/640/secHd.png") repeat-x scroll left top #4d4d4d;
+                            border-bottom: 1px solid #2b2b2b;
+                            border-top: 1px solid #494949;
+                            color: #aaa;
+                            font-size: 1em;
+                            font-weight: bold;
+                            line-height: 64px;
+                            height: 64px;
+                            margin: 0;
+                            padding: 0 0 0 4%;
+                            text-shadow: none;
+                            width: 100%;
+                        }
+
+                    }
+                }
+            }
+        </style>
+        <script src="/frontend/js/jquery-1.11.1.min.js"></script>
+        <script src="/frontend/js/angular.min.js"></script>
+        <script src="/frontend/js/less.min.js"></script>
+        <script src="/frontend/js/angular-route.min.js"></script>
+        <script src="/frontend/js/angular-touch.min.js"></script>
+        <script src="/frontend/js/functions.js"></script>
+    </head>
+    <body ng-controller="slideMenu">
+      <div id="container" ng-init="init()">
+      <div>
+        <div ng-include="'/frontend/elements/header.html'"></div>
+        <div ng-include="'/frontend/elements/menu.html'"></div>
+        <div ng-include="'/frontend/elements/navbar.html'"></div>
+        <div ng-view="" class="content">
+          <!-- view content goes here -->
+        </div>
+        <div ng-include="'/frontend/elements/footer.html'"></div>
+      </div>
+      </div>
+    </body>
+</html>

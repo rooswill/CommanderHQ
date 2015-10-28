@@ -1,0 +1,78 @@
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+<script language="javascript">
+	var lat;
+	var lng;
+	var options = {timeout:60000};
+	navigator.geolocation.getCurrentPosition(findLocation, noLocation, options);
+
+	function findLocation(position)
+	{
+	    lat = position.coords.latitude;
+	    lng = position.coords.longitude;
+	    $.ajax({url:'ajax.php?module=locator',data:{latitude:lng,longitude:lat},dataType:"html",success:display}); 
+	}
+
+	function noLocation()
+	{
+    	$.ajax({url:'ajax.php?module=locator',data:{latitude:null,longitude:null},dataType:"html",success:display}); 
+	}
+
+	function GymSearch()
+	{
+		if(($("#search_word").val()).length < 2) {
+			alert('You need to enter at least two characters to search.');
+			return false;
+		} 
+		else 
+		{
+			$("#map_canvas").removeClass("active");
+			$.ajax({url:'ajax.php?module=locator',data:$("#searchform").serialize(),dataType:"html",success:display});
+			$('#topselection').html('<h1>Search Results</h1>');
+		}
+	}
+
+	function display(data)
+	{
+	    $('#AjaxOutput').html(data);
+	    $('#listview').listview();
+	    $('#listview').listview('refresh');
+	    $('.buttongroup').button();
+	    $('.buttongroup').button('refresh');
+		$('#navbar').navbar();
+	    $('#AjaxLoading').html('');	
+	}
+
+</script>
+
+
+<div class="ui-listview" id="topselection">
+	<h1 class="ui-li-heading">Affiliate gyms near you</h1>
+</div>
+
+<div class="affiliates-section" id="mainPage">
+	<div data-role="content" class="ui-content" role="main">
+		<form id="searchform" name="searchform" method="post" action="#">
+			<div class="affiliatestop">
+				<div class="ui-input-search ui-shadow-inset ui-btn-corner-all ui-btn-shadow ui-icon-searchfield ui-body-c">
+					<input type="text" data-type="search" id="search_word" name="keyword" placeholder="Search" results="5" class="ui-input-text ui-body-c">
+					<a title="clear text" class="ui-input-clear ui-btn ui-btn-up-c ui-shadow ui-btn-corner-all ui-fullsize ui-btn-icon-notext ui-input-clear-hidden" href="#" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-icon="delete" data-iconpos="notext" data-theme="c" data-mini="false">
+						<span class="ui-btn-inner">
+							<span class="ui-btn-text">clear text</span>
+							<span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span>
+						</span>
+					</a>
+				</div>
+				<div data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="b" data-inline="true" data-mini="true" data-disabled="false" class="ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-up-b" aria-disabled="false">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Go</span>
+					</span>
+					<input type="button" onclick="GymSearch();" data-theme="b" data-mini="true" data-inline="true" value="Go" class="affiliatesbutton ui-btn-hidden" name="btnSubmit" data-disabled="false">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="AjaxOutputForWODs" id="AjaxOutput"></div>
+
+<div id="map_canvas"></div>
