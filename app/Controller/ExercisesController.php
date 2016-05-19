@@ -200,4 +200,52 @@ class ExercisesController extends AppController
 		die();
 	}
 
+	public function save_updated_workout()
+	{
+		if(isset($this->request->data))
+		{
+			$randomGroup['WorkoutUserTemplateDetail'] = $this->generateRandomString();
+			$randomGroup['WorkoutUserAttributeDetail'] = $this->generateRandomString();
+
+			foreach($this->request->data as $key => $data)
+			{
+				if($key == 'workoutID')
+				{
+					$this->loadModel('Workout');
+					$updateWorkout['Workout']['id'] = $data;
+					$updateWorkout['Workout']['complete'] = 1;
+					$this->Workout->save($updateWorkout);
+				}
+				else
+				{
+					$this->loadModel($key);
+
+					foreach($data as $d)
+					{
+						$this->{$key}->create();
+						foreach($d as $dKey => $dValue)
+						{
+							$update[$key]['group'] = $randomGroup[$key];
+							$update[$key][$dKey] = $dValue;
+						}
+						$this->{$key}->save($update);
+					}
+				}
+			}
+
+			die();
+		}
+	}
+
+	public function generateRandomString($length = 10) 
+	{
+	    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	    $charactersLength = strlen($characters);
+	    $randomString = '';
+	    for ($i = 0; $i < $length; $i++) {
+	        $randomString .= $characters[rand(0, $charactersLength - 1)];
+	    }
+	    return $randomString;
+	}
+
 }

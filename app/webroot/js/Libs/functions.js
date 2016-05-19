@@ -745,6 +745,72 @@ function saveActivity(element)
 
 }
 
+function saveWorkoutUserValues(workout_id)
+{
+	var data_received = true;
+
+	var data = {
+		workoutID : workout_id,
+		WorkoutUserTemplateDetail : {
+			
+		},
+		WorkoutUserAttributeDetail: {
+			
+		}
+	};
+
+	$('.workout-template-detail-block').each(function () {
+
+		if($('#member-input-template', this).val())
+		{
+			data['WorkoutUserTemplateDetail'][Object.keys(data['WorkoutUserTemplateDetail']).length] = {
+				value : $('#member-input-template', this).val(),
+				name : $('#workout_template_name', this).val(),
+				workout_template_id : $('#workout_template_id', this).val()
+			}
+		}
+		else
+			data_received = false;
+	});
+
+	$('.workout-attributes-detail-block').each(function () {
+
+		if($('#member-input', this).val() != '')
+		{
+			data['WorkoutUserAttributeDetail'][Object.keys(data['WorkoutUserAttributeDetail']).length] = {
+				value : $('#member-input', this).val(),
+				name : $('#workout_attribute_name', this).val(),
+				workout_attribute_id : $('#workout_attribute_id', this).val()
+			}
+		}
+		else
+			data_received = false;
+		
+	});
+
+	// if(data_received)
+	// {
+		$.ajax({
+	        url: "/exercises/save_updated_workout", // url to send data to
+	        type: "POST", // parse data as type
+	        data: data, // data object to parse
+	        dataType: "json", // return type
+	        success: function(data) {
+	        	location.reload();
+	        }, // callback function
+	        error: function() {
+
+	        },
+	        async: true
+	    });
+	// }
+	// else
+	// {
+	// 	alert("please make sure you have filled in all the workout fields");
+	// }
+
+}
+
 function saveWorkout()
 {
 	$(".se-pre-con").fadeOut("slow");

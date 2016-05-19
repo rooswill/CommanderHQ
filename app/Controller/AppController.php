@@ -43,9 +43,12 @@ class AppController extends Controller
 	{
 		parent::beforeFilter();
 		$this->loadModel('Member');
-		$userId = $_COOKIE['UID'];
-		$this->user_info = $this->Member->find('all', array('conditions' => array('id' => $userId)));
-		CakeSession::write('global_user_info', $this->user_info);
+		if(isset($_COOKIE['UID']))
+		{
+			$userId = $_COOKIE['UID'];
+			$this->user_info = $this->Member->find('all', array('conditions' => array('id' => $userId)));
+			CakeSession::write('global_user_info', $this->user_info);
+		}
 
 		// set activities
 		$this->loadModel('Activity');

@@ -30333,3 +30333,1496 @@ Stack Trace:
 #3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-10-29 09:57:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 09:57:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 09:57:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 09:57:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 09:58:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 09:58:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 10:00:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 10:00:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 10:01:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-29 12:23:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:07:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:08:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:09:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:10:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:10:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:12:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:12:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:14:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:19:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:20:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:20:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:20:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:22:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:24:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:26:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 11:27:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:06:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:06:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:06:49 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/rooswill/Sites/commanderhq.com/app/Controller/ExercisesController.php, line 205]
+2015-11-02 12:06:49 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /exercises/save_updated_workout
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/rooswill...', 205)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/rooswill...', 205, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/rooswill...', 205, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-02 12:07:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:16:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:17:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:17:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:17:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:18:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:18:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:18:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/rooswill/Sites/commanderhq.com/app/Controller/ExercisesController.php, line 212]
+2015-11-02 12:18:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /exercises/save_updated_workout
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/rooswill...', 212)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/rooswill...', 212, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/rooswill...', 212, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-02 12:19:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:19:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/rooswill/Sites/commanderhq.com/app/Controller/ExercisesController.php, line 212]
+2015-11-02 12:19:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /exercises/save_updated_workout
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/rooswill...', 212)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/rooswill...', 212, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/rooswill...', 212, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-02 12:21:26 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/rooswill/Sites/commanderhq.com/app/Controller/ExercisesController.php, line 213]
+2015-11-02 12:21:26 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /exercises/save_updated_workout
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/rooswill...', 213)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/rooswill...', 213, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/rooswill...', 213, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-02 12:21:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:21:52 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/rooswill/Sites/commanderhq.com/app/Controller/ExercisesController.php, line 213]
+2015-11-02 12:21:52 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /exercises/save_updated_workout
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/rooswill...', 213)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/rooswill...', 213, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/rooswill...', 213, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-02 12:23:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:24:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-02 12:25:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:21:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:22:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:23:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:23:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:25:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:26:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:27:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:27:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:27:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:28:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:29:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:31:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:36:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:36:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:36:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:37:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:37:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:37:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:37:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:37:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:37:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:41:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 11:43:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:37:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:38:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:38:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:40:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:40:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:42:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:43:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:43:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:43:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:45:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:45:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:45:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:45:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:46:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:48:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:48:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:50:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:53:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:54:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:56:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:57:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:58:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 12:59:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:00:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:01:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:03:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:03:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:05:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:06:50 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/rooswill/Sites/commanderhq.com/app/Controller/WorkoutsController.php, line 25]
+2015-11-03 13:06:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /workouts/view/2
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/rooswill...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/rooswill...', 25, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/rooswill...', 25, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 13:06:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:07:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:09:28 Error: Fatal Error (4): syntax error, unexpected '}' in [/Users/rooswill/Sites/commanderhq.com/app/View/Elements/previous-results.ctp, line 34]
+2015-11-03 13:09:28 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /workouts/view/2
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/rooswill...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/rooswill...', 34, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/rooswill...', 34, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-03 13:09:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:09:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:11:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:12:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:12:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:15:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:15:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:16:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:17:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:18:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:20:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:20:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:21:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:21:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:23:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:53:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:54:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:54:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:54:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:54:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:54:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:54:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:55:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-03 13:57:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 08:24:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 08:27:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 08:27:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 08:28:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 08:28:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 08:29:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:13:03 Error: Fatal Error (1): Call to a member function _activityCount() on a non-object in [/Users/rooswill/Sites/commanderhq.com/app/Controller/MembersController.php, line 406]
+2015-11-04 09:13:03 Error: [FatalErrorException] Call to a member function _activityCount() on a non-object
+Request URL: /members/progress/activities
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/rooswill...', 406)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/rooswill...', 406, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/rooswill...', 406, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-04 09:18:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:18:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:18:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:18:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:18:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:19:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:20:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:20:26 Error: Fatal Error (4): syntax error, unexpected '\' (T_NS_SEPARATOR) in [/Users/rooswill/Sites/commanderhq.com/app/View/Members/progress_summary.ctp, line 15]
+2015-11-04 09:20:26 Error: [FatalErrorException] syntax error, unexpected '\' (T_NS_SEPARATOR)
+Request URL: /members/progress/activities
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/rooswill...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/rooswill...', 15, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/rooswill...', 15, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-04 09:20:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:20:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:20:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:20:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:21:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:21:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:22:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-04 09:24:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-05 09:13:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 09:10:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 09:11:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 09:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 09:12:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 09:13:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 09:15:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 09:15:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/Libs/jquery-1.10.1.min.map
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 12:40:37 Error: [MissingControllerException] Controller class ExerciseController could not be found.
+Exception Attributes: array (
+  'class' => 'ExerciseController',
+  'plugin' => NULL,
+)
+Request URL: /exercise/getExerciseStats
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 12:40:43 Error: [MissingControllerException] Controller class ExercisesgetExerciseStatsController could not be found.
+Exception Attributes: array (
+  'class' => 'ExercisesgetExerciseStatsController',
+  'plugin' => NULL,
+)
+Request URL: /exercisesgetExerciseStats
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-29 12:57:19 Error: Fatal Error (4): syntax error, unexpected '}' in [/Users/rooswill/Sites/commanderhq.com/app/Controller/ExercisesController.php, line 266]
+2016-03-29 12:57:19 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /exercises/getExerciseStats
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/rooswill...', 266)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/rooswill...', 266, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/rooswill...', 266, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-29 13:06:54 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getExerciseStats' at line 1
+Request URL: /members/progress
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('getExerciseStat...', Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('getExerciseStat...', Array, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('getExerciseStat...', Array, Array)
+#4 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Model.php(827): DboSource->query('getExerciseStat...', Array, Object(Exercise))
+#5 /Users/rooswill/Sites/commanderhq.com/app/Controller/MembersController.php(398): Model->__call('getExerciseStat...', Array)
+#6 /Users/rooswill/Sites/commanderhq.com/app/Controller/MembersController.php(398): Exercise->getExerciseStats()
+#7 [internal function]: MembersController->progress()
+#8 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MembersController), Array)
+#9 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest))
+#11 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-29 13:07:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_getExerciseStats' at line 1
+Request URL: /members/progress
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('_getExerciseSta...', Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('_getExerciseSta...', Array, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('_getExerciseSta...', Array, Array)
+#4 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Model/Model.php(827): DboSource->query('_getExerciseSta...', Array, Object(Exercise))
+#5 /Users/rooswill/Sites/commanderhq.com/app/Controller/MembersController.php(398): Model->__call('_getExerciseSta...', Array)
+#6 /Users/rooswill/Sites/commanderhq.com/app/Controller/MembersController.php(398): Exercise->_getExerciseStats()
+#7 [internal function]: MembersController->progress()
+#8 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MembersController), Array)
+#9 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest))
+#11 /Users/rooswill/Sites/commanderhq.com/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-03-29 13:08:39 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/rooswill/Sites/commanderhq.com/app/Model/Exercise.php, line 32]
+2016-03-29 13:08:39 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /members/progress
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/rooswill...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/rooswill...', 32, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/rooswill...', 32, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-29 13:08:39 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/rooswill/Sites/commanderhq.com/app/Model/Exercise.php, line 32]
+2016-03-29 13:08:39 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /members/progress
+Stack Trace:
+#0 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/rooswill...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/rooswill...', 32, Array)
+#2 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/rooswill...', 32, Array)
+#3 /Users/rooswill/Sites/commanderhq.com/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

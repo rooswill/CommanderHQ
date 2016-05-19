@@ -5578,3 +5578,14 @@ if it's not present, don't show loader */
 .workout-template-detail-block {
   padding:4px 0;
 }
+
+#timer {
+  text-align: center;
+  font-size: 7vw;
+}
+
+.workout-template-detail-block {
+  background:#fff;
+  padding:10px;
+  margin-bottom:6px;
+}

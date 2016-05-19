@@ -14,7 +14,7 @@ window.onload = function () {
 	{
 		animationEnabled: true,
 		title:{
-			text: "<?php echo $title; ?> Detail Chart"
+			text: "Detail Chart"
 		},
 		axisX: {
 			interval:1,
